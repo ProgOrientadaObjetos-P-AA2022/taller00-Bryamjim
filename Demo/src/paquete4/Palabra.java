@@ -14,4 +14,5 @@ public class Palabra {
     public static String obtenerPalabra(){
         return "Loja";
     }
+    
 }

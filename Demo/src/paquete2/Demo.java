@@ -5,6 +5,7 @@
  */
 package paquete2;
 
+import java.util.Scanner;
 import paquete1.Mensaje;
 
 
@@ -18,6 +19,7 @@ public class Demo {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        Scanner frase = new Scanner(System.in);
         
         System.out.printf("%s,",Mensaje.obtenerFrase() );
     }
